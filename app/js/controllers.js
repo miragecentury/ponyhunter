@@ -8,6 +8,7 @@ angular.module('myApp.controllers', []).
 
         scope.watt = 0;
         scope.cloud_nb = 0;
+        scope.cloud_pop = 2;
 
         var animate_sun = function(){
             
@@ -16,7 +17,9 @@ angular.module('myApp.controllers', []).
         var animate_cloud = function() {
 
         };
-
+        
+        var poping_
+        
         scope.garbage = {
             solar_panel: {
                 nb: 0,
